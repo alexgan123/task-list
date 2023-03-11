@@ -1,13 +1,10 @@
-import { useState } from 'react'
+import Button from 'react-bootstrap/Button';
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <div style={{color: "white"}}>
-      Testing
-    </div>
+    <>
+      <Button>Add task</Button>
+    </>
   )
 }
 
