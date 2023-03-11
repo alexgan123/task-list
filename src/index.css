@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-}
-
 body {
-  margin: 0;
   background-color: #302e2e;
 }
