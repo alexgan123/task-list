@@ -1,21 +1,18 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
 
 const NewTask = () => {
   return (
-    <Form>
-      <Form.Group className="mb-3" controlId="formNewTask">
-        <Form.Label>Create new Task</Form.Label>
-        <br />
-        <Form.Control type="text" placeholder="Task name" style={{ display: "inline", maxWidth: "80%", verticalAlign: "middle" }} />
-        <Button variant="primary" type="submit" style={{ display: "inline", marginLeft: "1rem" }}>
-          Add task
+    <>
+      <Form.Label>Create new task</Form.Label>
+      <InputGroup className="mb-3">
+        <Form.Control placeholder="Task name" />
+        <Button>
+          Add Task
         </Button>
-
-      </Form.Group>
-
-
-    </Form>
+      </InputGroup>
+    </>
   );
 };
 
