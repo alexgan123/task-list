@@ -1,0 +1,7 @@
+.task-list > * {
+  margin-top: 1rem;
+}
+
+.task-list > *:last-child {
+  margin-bottom: 1rem;
+}

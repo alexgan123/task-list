@@ -1,6 +1,6 @@
 const Title = () => {
   return (
-    <h2 style={{ textAlign: "center", marginTop: "1rem", marginBottom: "1rem" }}>Task List</h2>
+    <h2 className="mb-3 mt-3 text-center">Task List</h2>
   );
 };
 export default Title;
