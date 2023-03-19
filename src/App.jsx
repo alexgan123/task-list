@@ -5,8 +5,11 @@ import NewTask from './components/NewTask';
 import TaskList from './components/TaskList';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import secrets from '../cools/secrets.json';
+
 
 const App = () => {
+  console.log("Testing: " + secrets.name);
   const [tasks, setTasks] = useState([])
   const [completedTasks, setCompletedTasks] = useState([]);
 
